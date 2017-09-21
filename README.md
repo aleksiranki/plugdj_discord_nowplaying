@@ -20,6 +20,7 @@ $ node index.js
 ## Configuration
 You need Discord bot user and bot token for it.
 Also you need plug.dj username and password to access the plug.dj API.
+Configuration file needs to be in same directory as index.js and named `config.json`
 ### Example configuration
 ```js
 {
