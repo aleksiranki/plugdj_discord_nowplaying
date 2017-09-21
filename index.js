@@ -77,7 +77,7 @@ if (typeof config.bridgemessages == "string" && config.bridgemessages == "yes")
          return;
       }
       var plugdjmessage = data.message;
-      var message = "**<" + user + "**> " + plugdjmessage;
+      var message = "**<" + user + ">** " + plugdjmessage;
       channel.send(message);
       console.log("Plugdj: " + message);
    });
