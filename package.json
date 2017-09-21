@@ -1,0 +1,28 @@
+{
+  "name": "plugdj_discord_nowplaying",
+  "version": "0.0.1",
+  "description": "A discord bot which polls song playing in plug.dj channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksiranki/plugdj_discord_nowplaying.git"
+  },
+  "keywords": [
+    "javascript",
+    "plug.dj",
+    "discord"
+  ],
+  "author": "Aleksi Ranki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksiranki/plugdj_discord_nowplaying/issues"
+  },
+  "homepage": "https://github.com/aleksiranki/plugdj_discord_nowplaying#readme"
+  "dependencies": {
+     "plugapi": "4.2.3",
+     "discord.js": "11.2.1"
+  }
+}
