@@ -21,8 +21,4 @@
     "url": "https://github.com/aleksiranki/plugdj_discord_nowplaying/issues"
   },
   "homepage": "https://github.com/aleksiranki/plugdj_discord_nowplaying#readme"
-  "dependencies": {
-     "plugapi": "4.2.3",
-     "discord.js": "11.2.1"
-  }
 }
