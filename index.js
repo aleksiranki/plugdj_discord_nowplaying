@@ -47,7 +47,7 @@ bot.on('advance', function(data) {
    var currentdj = data.currentDJ.username;
 
    // Create the message to display in Discord and send it to Discrod
-   var message = "Current DJ: " + currentdj + "\n" + songauthor + " - " + songtitle;
+   var message = "**Current DJ:** " + currentdj + "\n" + songauthor + " - " + songtitle;
    channel.send(message);
 
    // Log stuff to JS console
