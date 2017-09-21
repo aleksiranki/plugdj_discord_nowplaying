@@ -33,16 +33,25 @@ bot.on('error', reconnect);
 
 // Event listener for plug.dj
 bot.on('advance', function(data) {
+   // Find the channel in Discord
    var channel = client.channels.get(config.discordchannel);
+
    // Do not do anything if no-one is playing
    if (typeof data.media == 'undefined')
    {
       return;
    }
+   // Collect stuff from the JSON
    var songauthor = data.media.author;
    var songtitle = data.media.title;
    var currentdj = data.currentDJ.username;
+
+   // Create the message to display in Discord and send it to Discrod
    var message = "Current DJ: " + currentdj + "\n" + songauthor + " - " + songtitle;
    channel.send(message);
+
+   // Log stuff to JS console
+   console.log(data.mediaStartTime)
    console.log(message);
+   console.log("\n");
 });
