@@ -20,10 +20,9 @@ var bot = new PlugAPI({
 
 bot.connect(config.plugdjroomslug);
 
-bot.on('roomJoin', function(room) {
-       console.log("Joined " + room);
+bot.on(PlugAPI.events.ROOM_JOIN, (room) => {
+       console.log(`Joined ${room}`);
 });
-
 
 // Set up automatic reconnect for plug.dj
 var reconnect = function() { bot.connect(config.plugdjroomslug); };

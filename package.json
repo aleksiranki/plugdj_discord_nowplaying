@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/aleksiranki/plugdj_discord_nowplaying#readme",
   "dependencies": {
-    "bufferutil": "^3.0.2",
-    "discord.js": "^11.2.1",
+    "bufferutil": "^3.0.3",
+    "discord.js": "^11.3.0",
     "erlpack": "github:hammerandchisel/erlpack",
     "libsodium-wrappers": "^0.5.4",
     "node-opus": "^0.2.7",
     "opusscript": "0.0.3",
     "plugapi": "^4.2.3",
-    "sodium": "^2.0.1",
+    "sodium": "^2.0.3",
     "uws": "^0.14.5"
   }
 }
